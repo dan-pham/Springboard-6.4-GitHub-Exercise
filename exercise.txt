@@ -1,0 +1,24 @@
+Exercise Commands
+
+1. Create a local repository and add and commit some files
+
+git init
+echo "#GitHub Exercise Project" > README.md
+git add README.md
+git commit -m "Initial commit"
+
+2. Create a remote repository and push your code from the local repo to the remote
+
+git remote add origin https://github.com/dan-pham/Springboard-6.4-GitHub-Exercise.git
+git push -u origin main
+
+3. Create a local branch and add and commit some files
+
+git checkout -b new-feature
+echo "New feature implementation" > feature.txt
+git add feature.txt
+git commit -m "Add new feature"
+
+4. Push that local branch to GitHub to create a remote branch
+
+git push -u origin new-feature
